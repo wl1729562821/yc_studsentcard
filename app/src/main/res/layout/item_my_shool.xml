@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_tvName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_heightPercent="16%w"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            app:layout_widthPercent="2%w"
+            app:layout_heightPercent="3.5%w"
+            app:layout_marginRightPercent="4%w"
+            android:background="@drawable/enter"/>
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

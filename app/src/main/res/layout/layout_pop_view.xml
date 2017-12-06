@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_title"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/text_chose_time_space"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_start_time"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/white_bg_with_border">
+
+                <TextView
+                    android:id="@+id/id_tvStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/ago_day"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/id_tvStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/id_tvStartDate"
+                    android:layout_toRightOf="@+id/id_tvStartDate"
+                    android:text="@string/ago_day"
+                    android:textColor="@color/login_bar"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/id_ivEditStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/edit_button_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_start_time"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+                android:background="@drawable/white_bg_with_border">
+
+                <TextView
+                    android:id="@+id/id_tvEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/ago_day"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/id_tvEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/id_tvEndDate"
+                    android:layout_toRightOf="@+id/id_tvEndDate"
+                    android:text="@string/ago_day"
+                    android:textColor="@color/login_bar"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/id_ivEditEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/edit_button_selector" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_tvSlectOk"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_marginBottom="26dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/yellow_3_bg"
+            android:gravity="center"
+            android:text="@string/text_play"
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="16sp"
+            app:layout_heightPercent="13%w"
+            app:layout_widthPercent="80%w" />
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

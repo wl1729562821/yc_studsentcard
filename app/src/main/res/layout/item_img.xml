@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:layout_widthPercent="50%w"
+            app:layout_heightPercent="50%w"
+            android:background="@drawable/home_dzwl"
+            android:layout_gravity="center"
+            app:layout_marginTopPercent="25%w"
+            app:layout_marginBottomPercent="25%w"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/item_student_img"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/item_student_title"
+            app:layout_marginTopPercent="80%w"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text=""
+            />
+
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

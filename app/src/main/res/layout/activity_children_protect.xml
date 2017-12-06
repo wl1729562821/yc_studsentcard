@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nav_bg"
+    android:orientation="vertical"
+    tools:context="cc.manbu.schoolinfocommunication.ChildrenProtectActivity">
+
+    <include
+        android:id="@id/id_head"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_head"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/home_bg_color"
+        android:orientation="vertical">
+
+        <cn.yc.base.view.custom.percent.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/id_tvAddress"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_height="wrap_content"
+                app:layout_marginTopPercent="3%w"
+                app:layout_marginBottomPercent="3%w"
+                app:layout_marginLeftPercent="3.5%w"
+                app:layout_marginRightPercent="3.5%w"
+                android:textSize="16sp" />
+        </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/home_bg_color" />
+
+        <ListView
+            android:id="@+id/id_lvList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:scrollbars="none"
+            android:dividerHeight="0dp"
+            android:divider="@color/white"/>
+    </LinearLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

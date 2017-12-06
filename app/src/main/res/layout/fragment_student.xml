@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="11.5%h"
+        app:layout_marginRightPercent="33.333333%w"
+        app:layout_marginLeftPercent="0%w"
+        >
+        <View
+            app:layout_widthPercent="14%w"
+            android:layout_height="match_parent"/>
+
+        <cn.yc.base.view.custom.percent.PercentLinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                app:layout_widthPercent="100%w"
+                app:layout_heightPercent="100%w"
+                android:id="@+id/student_img1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/student_title1"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                app:layout_widthPercent="100%w"
+                app:layout_heightPercent="100%w"
+                android:id="@+id/student_img3"
+                app:layout_marginTopPercent="24%w"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/student_title3"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                app:layout_widthPercent="100%w"
+                app:layout_heightPercent="100%w"
+                android:id="@+id/student_img5"
+                app:layout_marginTopPercent="24%w"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/student_title5"/>
+            
+        </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+        <View
+            app:layout_widthPercent="14%w"
+            android:layout_height="match_parent"/>
+
+        <cn.yc.base.view.custom.percent.PercentLinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                app:layout_widthPercent="100%w"
+                app:layout_heightPercent="100%w"
+                android:id="@+id/student_img2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/student_title2"/>
+            <ImageView
+                android:layout_gravity="center"
+                app:layout_widthPercent="100%w"
+                app:layout_heightPercent="100%w"
+                android:id="@+id/student_img4"
+                app:layout_marginTopPercent="24%w"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/student_title4"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                app:layout_widthPercent="100%w"
+                app:layout_heightPercent="100%w"
+                android:id="@+id/student_img6"
+                app:layout_marginTopPercent="24%w"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:id="@+id/student_title6"/>
+
+        </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+</cn.yc.base.view.custom.percent.PercentRelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newhome_bg">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_pager">
+
+    </android.support.v4.view.ViewPager>
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        app:layout_widthPercent="33.333333%w"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="13%h"
+        android:id="@+id/main_parent">
+
+        <ImageView
+            app:layout_widthPercent="42%w"
+            app:layout_heightPercent="42%w"
+            android:background="@drawable/home_personal_center"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            app:layout_marginBottomPercent="20%w"
+            android:id="@+id/main_mine"/>
+        <ImageView
+            app:layout_widthPercent="42%w"
+            app:layout_heightPercent="42%w"
+            android:layout_gravity="center"
+            android:background="@drawable/home_setting"
+            android:scaleType="center"
+            app:layout_marginBottomPercent="20%w"
+            android:id="@+id/main_setting"/>
+        <ImageView
+            app:layout_widthPercent="42%w"
+            app:layout_heightPercent="42%w"
+            android:layout_gravity="center"
+            android:background="@drawable/home_message"
+            android:scaleType="center"
+            android:id="@+id/main_message"
+            app:layout_marginBottomPercent="25%w"
+            />
+        <cn.yc.base.view.custom.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:layout_widthPercent="6%w"
+                app:layout_heightPercent="6%w"
+                android:id="@+id/main_index_2"
+                android:layout_below="@+id/main_parent"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:background="@drawable/black_oval"/>
+            <ImageView
+                app:layout_widthPercent="6%w"
+                app:layout_heightPercent="6%w"
+                android:id="@+id/main_index_1"
+                android:visibility="gone"
+                app:layout_marginRightPercent="8%w"
+                android:layout_toLeftOf="@+id/main_index_2"
+                android:background="@drawable/yellow_oval"/>
+            <ImageView
+                app:layout_widthPercent="6%w"
+                app:layout_heightPercent="6%w"
+                android:id="@+id/main_index_3"
+                android:visibility="gone"
+                app:layout_marginLeftPercent="8%w"
+                android:layout_toRightOf="@+id/main_index_2"
+                android:background="@drawable/black_oval"/>
+
+        </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+        <cn.yc.base.view.custom.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/main_index_parent">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/view"/>
+
+            <ImageView
+                app:layout_widthPercent="6%w"
+                app:layout_heightPercent="6%w"
+                android:layout_toLeftOf="@+id/view"
+                android:id="@+id/main_index_one"
+                app:layout_marginRightPercent="8%w"
+                android:background="@drawable/yellow_oval"/>
+
+            <ImageView
+                app:layout_widthPercent="6%w"
+                app:layout_heightPercent="6%w"
+                android:id="@+id/main_index_two"
+                app:layout_marginLeftPercent="8%w"
+                android:layout_toRightOf="@+id/view"
+                android:background="@drawable/black_oval"/>
+
+        </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+</cn.yc.base.view.custom.percent.PercentRelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="items_me_view">
+        <item>Nick</item>
+        <item>Birthday</item>
+        <item>Mobile Phone</item>
+        <item>Home Address</item>
+        <item>Nationality</item>
+        <item>ID</item>
+        <item>Politics Status</item>
+        <item>Get School Time</item>
+    </array>
+    <array name="items_shool_view">
+        <item>Shool Introduction</item>
+        <item>New Notice</item>
+        <item>Shool News</item>
+        <item>Fantastic Activity</item>
+    </array>
+
+    <string-array name="array_54_50_40_36_43">
+        <item>@string/fens_info</item>
+        <item>@string/text_phone_books</item>
+        <item>@string/text_check_class</item>
+        <item>@string/text_alerts</item>
+        <item>@string/text_children</item>
+        <item>@string/text_home_work_notice</item>
+        <item>@string/text_home_work_score</item>
+        <item>@string/text_vacations</item>
+        <item>@string/text_my_class</item>
+        <item>@string/text_kinship</item>
+        <item>@string/text_my_school</item>
+        <item>@string/text_sleep_on_time</item>
+        <item>@string/a</item>
+    </string-array>
+    <string-array name="array_41">
+        <item>@string/fens_info</item>
+        <item>@string/text_check_class</item>
+        <item>@string/text_alerts</item>
+        <item>@string/text_children</item>
+        <item>@string/text_home_work_notice</item>
+        <item>@string/text_home_work_score</item>
+        <item>@string/text_vacations</item>
+        <item>@string/text_my_class</item>
+        <item>@string/text_kinship</item>
+        <item>@string/text_my_school</item>
+        <item>@string/text_sleep_on_time</item>
+        <item>@string/a</item>
+    </string-array>
+    <string-array name="array_27">
+        <item>@string/fens_info</item>
+        <item>@string/text_check_class</item>
+        <item>@string/text_alerts</item>
+        <item>@string/text_children</item>
+        <item>@string/text_home_work_notice</item>
+        <item>@string/text_home_work_score</item>
+        <item>@string/text_vacations</item>
+        <item>@string/text_my_class</item>
+        <item>@string/text_kinship</item>
+        <item>@string/text_my_school</item>
+        <item>@string/a</item>
+    </string-array>
+    <string-array name="array_22">
+        <item>@string/fens_info</item>
+        <item>@string/text_check_class</item>
+        <item>@string/text_alerts</item>
+        <item>@string/text_children</item>
+        <item>@string/text_home_work_notice</item>
+        <item>@string/text_home_work_score</item>
+        <item>@string/text_vacations</item>
+        <item>@string/text_my_class</item>
+        <item>@string/text_kinship</item>
+        <item>@string/text_my_school</item>
+        <item>@string/text_scence_mode</item>
+        <item>@string/a</item>
+    </string-array>
+
+    <integer-array name="array_drawable_54_50_40_36_43">
+        <item>@drawable/home_dzwl</item>
+        <item>@drawable/home_address_book</item>
+        <item>@drawable/home_attendance_records</item>
+        <item>@drawable/home_my_alarm_clock</item>
+        <item>@drawable/home_childrens_guardians</item>
+        <item>@drawable/home_assignment_notice</item>
+        <item>@drawable/home_attendance</item>
+        <item>@drawable/home_fence</item>
+        <item>@drawable/home_schedule</item>
+        <item>@drawable/home_family_number</item>
+        <item>@drawable/home_campus</item>
+        <item>@drawable/home_regular_sleep</item>
+        <item>@drawable/etzj</item>
+    </integer-array>
+
+    <integer-array name="array_drawable_22">
+        <item>@drawable/home_dzwl</item>
+        <item>@drawable/home_attendance_records</item>
+        <item>@drawable/home_my_alarm_clock</item>
+        <item>@drawable/home_childrens_guardians</item>
+        <item>@drawable/home_assignment_notice</item>
+        <item>@drawable/home_attendance</item>
+        <item>@drawable/home_fence</item>
+        <item>@drawable/home_schedule</item>
+        <item>@drawable/home_family_number</item>
+        <item>@drawable/home_campus</item>
+        <item>@drawable/qjms</item>
+        <item>@drawable/etzj</item>
+    </integer-array>
+
+    <integer-array name="array_drawable_27">
+        <item>@drawable/home_dzwl</item>
+        <item>@drawable/home_attendance_records</item>
+        <item>@drawable/home_my_alarm_clock</item>
+        <item>@drawable/home_childrens_guardians</item>
+        <item>@drawable/home_assignment_notice</item>
+        <item>@drawable/home_attendance</item>
+        <item>@drawable/home_fence</item>
+        <item>@drawable/home_schedule</item>
+        <item>@drawable/home_family_number</item>
+        <item>@drawable/home_campus</item>
+        <item>@drawable/etzj</item>
+    </integer-array>
+
+    <integer-array name="array_drawable_41">
+        <item>@drawable/home_dzwl</item>
+        <item>@drawable/home_attendance_records</item>
+        <item>@drawable/home_my_alarm_clock</item>
+        <item>@drawable/home_childrens_guardians</item>
+        <item>@drawable/home_assignment_notice</item>
+        <item>@drawable/home_attendance</item>
+        <item>@drawable/home_fence</item>
+        <item>@drawable/home_schedule</item>
+        <item>@drawable/home_family_number</item>
+        <item>@drawable/home_campus</item>
+        <item>@drawable/home_regular_sleep</item>
+        <item>@drawable/etzj</item>
+    </integer-array>
+
+    <string-array name="teacher_array">
+        <item>@string/text_my_school</item>
+        <item>@string/text_holoday</item>
+        <item>@string/text_subject</item>
+        <item>@string/text_myclass</item>
+        <item>@string/text_myschedule</item>
+        <item>@string/text_homework</item>
+    </string-array>
+    <string-array name="teacher_drawable_array">
+        <item>@drawable/home_campus</item>
+        <item>@drawable/home_leave_approval</item>
+        <item>@drawable/home_subjects</item>
+        <item>@drawable/home_class</item>
+        <item>@drawable/home_course</item>
+        <item>@drawable/home_homework</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="bottom"
+              android:background="#66000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_carmera"
+            android:text="@string/text_carmera"
+            android:textColor="@color/login_bar"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/white_darkslategray_squre_selector"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/login_bar"/>
+
+        <Button
+            android:id="@+id/btn_photo"
+            android:text="@string/text_photo"
+            android:textColor="@color/login_bar"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/white_darkslategray_squre_selector"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/login_bar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/white_darkslategray_squre_selector"
+        android:text="@string/cancel"/>
+</LinearLayout>

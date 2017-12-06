@@ -1,0 +1,167 @@
+<cn.yc.base.view.custom.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root">
+
+    <!-- TODO: Update blank fragment layout -->
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <cn.yc.base.view.custom.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/view_map"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical" />
+            <TextView
+                app:layout_widthPercent="92%w"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/alpha_3_bg"
+                app:layout_marginTopPercent="4%w"
+                android:text="请在地图区域手动选定3个或3个以上的地理坐标，谢谢!"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:id="@+id/zone_alert"
+                app:layout_paddingTopPercent="2%w"
+                app:layout_paddingBottomPercent="2%w"
+                app:layout_paddingLeftPercent="2%w"
+                app:layout_paddingRightPercent="2%w"
+                />
+        </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+        <cn.yc.base.view.custom.percent.PercentLinearLayout
+            android:id="@+id/id_llBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/id_llZoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/id_tvZoneName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/text_e_zone_name"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/id_tvZoneName"
+                    android:text="@string/text_area_edit"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/id_tvClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/clear"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location_mark" />
+
+                <TextView
+                    android:id="@+id/id_tvAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/id_tvSetArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/yellow_3_bg"
+                android:gravity="center"
+                app:layout_widthPercent="80%w"
+                android:layout_gravity="center"
+                app:layout_heightPercent="13%w"
+                android:text="@string/text_area_sure"
+                android:textColor="@color/toolbar_text_color"
+                android:textSize="16sp" />
+        </cn.yc.base.view.custom.percent.PercentLinearLayout>
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_llSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_area_raduis_star" />
+
+        <SeekBar
+            android:id="@+id/id_sbRadius"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="100"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:progress="0"
+            android:progressDrawable="@drawable/bg_bar"
+            android:thumb="@drawable/thumb"
+            android:thumbOffset="7dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_area_raduis_end" />
+
+    </LinearLayout>
+
+</cn.yc.base.view.custom.percent.PercentFrameLayout>

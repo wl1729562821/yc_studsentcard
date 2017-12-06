@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signinbg"
+    tools:context="cc.manbu.schoolinfocommunication.SigninActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.yc.base.view.custom.percent.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:layout_marginTopPercent="20%w"
+                app:layout_marginBottomPercent="15%w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/signinlogo"
+                android:layout_gravity="center_horizontal"/>
+
+            <cn.yc.base.view.custom.percent.PercentLinearLayout
+                app:layout_widthPercent="75%w"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/id_edName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/text_account"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:textColorHint="@color/powderblue"
+                        android:textColor="@color/white"
+                        android:gravity="center_vertical"
+                        android:text="50909152213136"
+                        android:background="@drawable/siginbutton_yellow"/>
+                    <ImageView
+                        android:id="@+id/id_ivDown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:padding="16dp"
+                        android:src="@drawable/down_trangle"/>
+                </RelativeLayout>
+                <EditText
+                    android:id="@+id/id_edPwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/text_password"
+                    android:textColorHint="@color/powderblue"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:text="123456"
+                    android:background="@drawable/siginbutton_yellow"/>
+                <TextView
+                    android:id="@+id/id_tvLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:text="@string/text_login"
+                    android:background="@drawable/white_button_selector"
+                    android:layout_marginTop="42dp"
+                    android:gravity="center"/>
+            </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+
+        </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+    </ScrollView>
+
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

@@ -1,0 +1,132 @@
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg_color"
+    android:orientation="vertical"
+    tools:context="cc.manbu.schoolinfocommunication.fragments.EditPhoneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:id="@+id/id_llHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_marginTopPercent="4%w">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/id_ivPortrait"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gray_head"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="0dp"
+            app:layout_heightPercent="19%w"
+            app:layout_marginBottomPercent="3%w"
+            app:layout_marginRightPercent="4%w"
+            app:layout_marginTopPercent="3%w"
+            app:layout_widthPercent="19%w" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/id_ivPortrait"
+            android:layout_alignTop="@+id/id_ivPortrait"
+            android:gravity="center_vertical"
+            android:text="@string/text_head"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_marginLeftPercent="4%w" />
+
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:id="@+id/id_llName"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_heightPercent="14%w"
+        app:layout_marginTopPercent="4%w">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_marginLeftPercent="4%w" />
+
+        <EditText
+            android:id="@+id/id_edName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:focusable="true"
+            android:gravity="right|center_vertical"
+            android:hint="@string/hint_please_input"
+            android:maxLines="1"
+            android:textColor="@color/black1"
+            android:textColorHint="@color/black2"
+            android:textSize="14sp"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginRightPercent="4%w" />
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:id="@+id/id_llPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_heightPercent="14%w"
+        app:layout_marginTopPercent="4%w">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/phone_num"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_marginLeftPercent="4%w" />
+
+        <EditText
+            android:id="@+id/id_edNumber"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:focusable="true"
+            android:gravity="right|center_vertical"
+            android:hint="@string/hint_please_input"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="@color/black1"
+            android:textColorHint="@color/black2"
+            android:textSize="14sp"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginRightPercent="4%w" />
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/id_tvSure"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/yellow_3_bg"
+            android:gravity="center"
+            android:text="@string/text_add"
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="15sp"
+            app:layout_heightPercent="12%w"
+            app:layout_marginBottomPercent="14%w"
+            app:layout_widthPercent="80%w" />
+
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

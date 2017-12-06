@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nav_bg"
+    android:orientation="vertical"
+    tools:context="cc.manbu.schoolinfocommunication.SceneModeActivity">
+
+    <include
+        android:id="@+id/id_head"
+        layout="@layout/layout_head"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <cc.manbu.schoolinfocommunication.view.customer.SuperRadioGroup
+        android:id="@+id/id_superGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/id_llNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_normal"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_rbNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/home_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/id_llSilence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_silence"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_rbSilence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/home_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/id_llInSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_in_school"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_rbInSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/home_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/id_llOutSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_ou_school"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/id_rbOutSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </cc.manbu.schoolinfocommunication.view.customer.SuperRadioGroup>
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/id_tvSave"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="26dp"
+            android:layout_marginTop="26dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/text_save"
+            android:gravity="center"
+            android:background="@drawable/yellow_3_bg"
+            android:textColor="@color/toolbar_text_color"
+            app:layout_heightPercent="13%w"
+            app:layout_widthPercent="88%w" />
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

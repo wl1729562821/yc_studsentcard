@@ -1,0 +1,384 @@
+<resources>
+    <string name="app_name">School Gudarder</string>
+    <string name="text_main_tab1">HOME</string>
+    <string name="text_main_tab2">LOCATION</string>
+    <string name="text_main_tab3">WeChat</string>
+    <string name="text_main_tab4">MY</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="text_tips">Notice</string>
+    <string name="text_ok">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="network_error1">Delete failed, please try again later</string>
+    <string name="text_login_failed">Login failed! Please check your password or acount.</string>
+    <string name="text_data_failed">Can not submit some important datas, please login again!</string>
+    <string name="text_access_device_failed">Access the device failed! Please try it again.</string>
+    <string name="text_input_loginname">Please input your loginName first!</string>
+    <string name="text_input_pwd">Please input your password first!</string>
+    <string name="tips_no_data">No Data</string>
+    <string name="nearby">nearby</string>
+    <string name="text_unkonw_err">Unkonw Error! Please try it again!</string>
+    <string name="text_login">Sign In</string>
+    <string name="text_no_login_history">No sign in history here!</string>
+    <string name="text_add">Add</string>
+    <string name="fens_info">Electronic Crawl</string>
+    <string name="a">Early Childhood Education</string>
+    <string name="a1">Job Notification</string>
+    <string name="about_copy_right">Copyright of CityEasy</string>
+    <string name="about_copy_right_time">Copyright@2010-2020 CityeEasy.</string>
+    <string name="about_right">All Rights Reserved.</string>
+    <string name="current_version">Current Version:</string>
+
+    <string name="text_account">Account</string>
+    <string name="text_password">Password</string>
+
+    <string name="text_e_zone">E-Zone</string>
+    <string name="text_phone_books">Phone Books</string>
+    <string name="text_check_class">Check Records</string>
+    <string name="text_alerts">My Aclock</string>
+    <string name="text_my_school">My School</string>
+    <string name="text_children">Children Protecter</string>
+    <string name="text_home_work_notice">Homework Notice</string>
+    <string name="text_home_work_score">Exam Score</string>
+    <string name="text_steps">Steps</string>
+    <string name="text_vacations">Ask For Leave</string>
+    <string name="text_my_class">My Class</string>
+
+    <string name="ago_sec"> Secs Ago</string>
+    <string name="ago_min"> Mins Ago</string>
+    <string name="ago_hour"> Hours Ago</string>
+    <string name="ago_day"> Days Ago</string>
+    <string name="ago_mouth"> Months Ago</string>
+    <string name="ago_year"> Years Ago</string>
+
+    <string name="text_locate_type">%1$sLocate Type:%2$s&#160;%3$s</string>
+    <string name="text_battery">%1$sPower:%2$s&#160;%3$s</string>
+    <string name="text_loc_time">%1$sLocate Time:%2$s&#160;%3$s</string>
+    <string name="text_loc_address">Address:&#160;</string>
+    <string name="text_dev_status">%1$sDevice Status:%2$s&#160;%3$s%4$s%5$s</string>
+    <string name="text_off_line">Off-Line</string>
+    <string name="text_on_line">On-Line</string>
+
+    <string name="text_track">Play Track</string>
+    <string name="text_follow">Follw Online</string>
+
+    <string name="text_e_zone_name">E_Zone Name</string>
+    <string name="text_area_edit">[Click to edit]</string>
+    <string name="text_area_sure">Set for safe zone</string>
+    <string name="clear">Clear</string>
+    <string name="enter_warn">Into the electronic fence alarm</string>
+    <string name="leave_warn">The electronic fence alarm</string>
+    <string name="enter_leave_warn">In and out of the electronic fence alarm</string>
+
+    <string name="text_tips_input_zone_name">Input the E_zone name first!</string>
+    <string name="text_tips_zone_name_exits">The E_zone name alredy exits!</string>
+
+    <string name="text_points_too_less">Please at least select three points to make a area!</string>
+    <string name="text_no_user_msg">Current user messages are error!</string>
+    <string name="draw_electronicfence">Please draw the electronic fence on the map!</string>
+    <string name="text_zone_add_success">The E_zone add successful!</string>
+    <string name="text_delete_zone">Are you sure to delete this E_Zone？</string>
+
+    <string name="name">Name</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="text_added">Added</string>
+    <string name="text_head">Head Picture</string>
+    <string name="hint_please_input">Please Input&#8230;</string>
+    <string name="text_carmera">Camera</string>
+    <string name="text_photo">Gallery</string>
+
+    <string name="text_not_null_phone">Cell-Phone Can Not Empty</string>
+    <string name="hint_contact_exits">This Contact Already Here</string>
+    <string name="tips_name_not_be_null">Name Can Not Be Null!</string>
+
+    <string name="text_leave">Leave School</string>
+    <string name="text_enter">Enter School</string>
+    <string name="text_up_car">Get In School Bus</string>
+    <string name="text_down_car">Get Out School Bus</string>
+
+    <string name="text_no_colck">No Colck Datas yet!</string>
+    <string name="text_save">Save</string>
+    <string name="text_save_success">Clock Setting Save Successful！</string>
+
+    <string name="text_kinship">Kinship Number</string>
+    <string name="text_listener">Listen Number</string>
+    <string name="text_sleep_on_time">Sleep On Time</string>
+    <string name="text_fair_wall">Fair Wall</string>
+    <string name="text_upload_time">Upload Space</string>
+    <string name="text_voice_cmd">Voice CMD</string>
+    <string name="text_scence_mode">Scene Mode</string>
+    <string name="text_class_time">Class Time</string>
+    <string name="text_gps">GPS</string>
+    <string name="text_bluteeth">Bluteeth anti-lost</string>
+    <string name="text_text_msg">Text Message</string>
+    <string name="text_lock">Lock</string>
+
+    <string name="text_search_dev">Search Device</string>
+    <string name="text_loacte_fast">Fast Loaction</string>
+    <string name="text_loacte_mode">Loaction Mode</string>
+    <string name="text_remote">Remote</string>
+    <string name="text_reset">Reset Device To Factory</string>
+
+    <string name="text_cell_number">Cell-Number:&#160;&#160;&#160;&#160;%1$s</string>
+    <string name="setting_number">Setting Number</string>
+    <string name="dad">Dad</string>
+    <string name="mom">Mom</string>
+    <string name="sibling">Siblings</string>
+    <string name="sos">SOS</string>
+    <string name="text_input_phone_number">Input the number</string>
+
+    <string name="text_device_on">Device On Time</string>
+    <string name="text_device_off">Device Off Time</string>
+    <string name="text_set_new_time">Set New Time</string>
+    <string name="text_justy_time">Please confirm device on time must early than device off time!</string>
+    <string name="text_sleep_time_success">Sleep time setting successful！</string>
+
+    <string name="text_fairwall">Fair Wall Setting Successful！</string>
+    <string name="text_fairwall_failed">Fair Wall Setting Failed！</string>
+
+    <string name="text_find_device">Find Device CMD Sended！</string>
+    <string name="text_find_locate">Located！</string>
+    <string name="text_mode_set">Mode Setting</string>
+    <string name="text_mode_1">Save Power Mode</string>
+    <string name="text_mode_2">Route Mode</string>
+    <string name="text_set_mode_success">Work Mode Change To %1$s</string>
+
+    <string name="text_mode_power_off">Power-Off</string>
+    <string name="text_mode_power_boot">Reboot</string>
+    <string name="text_off_success">Power-Off Successful!</string>
+    <string name="text_reboot_success">Reboot Successful!</string>
+    <string name="text_remote_set">Remote Setting</string>
+    <string name="text_send_reset">Reset Device CMD Sended！</string>
+    <string name="tips_device_no_online">Device Offline!</string>
+
+    <!-- 亲子互动 -->
+    <string name="parent_child">Pedometer</string>
+    <string name="issue_task">Issue Task</string>
+    <string name="step">Step</string>
+    <string name="task_reward">Task Reward</string>
+    <string name="task_complete">Task Complete</string>
+    <string name="simple_task">Easy Task</string>
+    <string name="medium_task">Medium Task</string>
+    <string name="hard_task">Hard Task</string>
+    <string name="target_task">Target Task:</string>
+    <string name="task_progress">Task Progress</string>
+    <string name="cash_rewards">Cash Rewards</string>
+    <string name="cancel_rewards">Cancel Rewards</string>
+    <string name="tips_task_no_completed">Currently There Is No Complete Tasks!</string>
+    <string name="tips_into_current_task">Currently Task</string>
+    <string name="tips_into_start_new_task">New Task</string>
+    <string name="tips_task_reward">The Reward Of Your Child That The Task Completed Is:</string>
+    <string name="tips_task_changed">Current Task Has Changed!</string>
+    <string name="task">Task</string>
+    <string name="text_numbr_3000">3000%1$s</string>
+    <string name="text_numbr_6000">6000%1$s</string>
+    <string name="text_numbr_12000">12000%1$s</string>
+
+    <string name="text_off_title">Title:</string>
+    <string name="text_off_reson">Deatils:</string>
+    <string name="text_off_date">Date:</string>
+    <string name="text_pass">Unagreed</string>
+    <string name="text_reading">Uncheck</string>
+    <string name="text_passed">Agreed</string>
+    <string name="text_off_date1">Day-Off Date</string>
+    <string name="text_off_reson1">Day-Off Reson</string>
+    <string name="text_teacher_remark">Teacher Remark</string>
+
+    <string name="text_sleave_title">Sleave Title</string>
+    <string name="hint_sleave_title">Input the title</string>
+    <string name="text_sleave_reason">Sleave Reason</string>
+    <string name="hint_sleave_reason">Input the reason</string>
+    <string name="text_sleave_start_time">Start Time Of Sleave</string>
+    <string name="text_sleave_end_time">End Time Of Sleave</string>
+    <string name="text_confrim_apply">Apply Now</string>
+    <string name="text_not_early_than_today">Sorry, the times can\'t back, please chose a right time!</string>
+    <string name="text_start_early_than_end">You must sure start time early than end time!</string>
+    <string name="text_chose_time">Please select the sleave time then submit！</string>
+    <string name="text_commited">Your apply comnit successful！</string>
+
+    <string name="none_course">No classes</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="staturday">Sta</string>
+    <string name="sunday">Sun</string>
+
+    <string name="text_set">Settings</string>
+    <string name="text_msg">Messages</string>
+    <string name="text_info">Informations</string>
+
+    <string name="text_notice">Send Notice</string>
+    <string name="text_holoday">Get Off</string>
+    <string name="text_subject">Subjects</string>
+    <string name="text_myclass">My Class</string>
+    <string name="text_myschedule">My Course</string>
+    <string name="text_homework">Homework</string>
+
+    <string name="text_change_pwd">Change Password</string>
+    <string name="text_push">Push Message</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="text_about">About us</string>
+    <string name="text_exit">Logout</string>
+
+    <string name="text_realse_homework">New Works</string>
+    <string name="text_realse_homework_content">HomeWork Contents</string>
+    <string name="hint_home_work">Please input the content of homework</string>
+    <string name="text_chose_class">Chose Class</string>
+    <string name="text_chose_subjects">Chose Subjects</string>
+    <string name="text_chose_class_first">Chose Class First!</string>
+    <string name="text_chose_subject_first">Chose Subject First!</string>
+    <string name="text_home_work_relase_success">HomeWork create successful！</string>
+
+    <string name="text_not_handle_leave">Leaves not handle</string>
+    <string name="text_handled_leave">Leaves were handle</string>
+
+    <string name="text_leave_person">Leave Person:</string>
+    <string name="text_agreed_leave">Allow</string>
+    <string name="text_unagreed_leave">Refuse</string>
+    <string name="hint_reason">Please input the reason</string>
+    <string name="text_handle_msg_success">Handle message successful！</string>
+    <string name="text_handle_msg_fail">Handle message failed!</string>
+
+    <string name="text_new_pwd">New Password</string>
+    <string name="text_old_pwd">Old Password</string>
+    <string name="text_new_pwd2">New Password Again</string>
+    <string name="text_new_pwd_not_null">New password is empty！</string>
+    <string name="text_old_pwd_not_null">Old password is empty！</string>
+    <string name="text_new_not_match">New password not the same！</string>
+
+    <string name="feedback_content_hint">please input your feedback</string>
+    <string name="feedback_commite">Your feedback will deal with soon!</string>
+
+    <string name="text_no_msg">No messages not yet</string>
+    <string name="title_sure_to_delete">Are You Sure To Delete It?</string>
+    <string name="clean_up">Clean Up</string>
+    <string name="text_logout">Are you sure to sign out?</string>
+    <string name="text_cur_address">Current Address:%1$s</string>
+
+    <string name="hint_space_time">Input a time interval</string>
+
+    <string name="text_normal">Normal</string>
+    <string name="text_silence">Slience</string>
+    <string name="text_in_school">In school</string>
+    <string name="text_ou_school">Out school</string>
+
+    <string name="text_phone">Phone ring level</string>
+    <string name="text_messages">Messages ring level</string>
+    <string name="text_voice">Voice ring level</string>
+
+    <string name="play_finish">Play Finished</string>
+    <string name="has_completed">Completed:</string>
+    <string name="finish">finish</string>
+    <string name="tips_play_origin_trace">Play The Origin Trace Data</string>
+    <string name="tips_play_rectified_trace">Play The Rectified Trace Data</string>
+    <string name="tips_auto_zoom_map_mode"> Can Not Support Manual Zoom The Map When Play The Trace</string>
+    <string name="tips_manual_zoom_map_mode">Support Manual Zoom The Map When Play The Trace</string>
+    <string name="text_chose_time_space">Please chose a time space of trace</string>
+    <string name="text_start_time">Start Time：</string>
+    <string name="text_end_time">End&#160;&#160; Time：</string>
+    <string name="text_play">Play Now</string>
+    <string name="tips_no_device">There Is No Loaded Into The Devices!</string>
+    <string name="no_data_current_time">No data current time.</string>
+
+    <string name="text_nothing">It is nothing here</string>
+    <string name="text_del_phone">Are you sure to delete the %1$s\'s number?</string>
+
+    <string name="text_states">Status: %1$s</string>
+    <string name="text_time">Time: %1$s</string>
+    <string name="text_alert_type">Warning Type: %1$s</string>
+    <string name="text_alert_in">Warning when in e-zone</string>
+    <string name="text_alert_out">Warning when out e-zone</string>
+    <string name="text_alert_all">Warning whatever</string>
+
+    <string name="text_exit_app">Click again to exit the application!</string>
+
+    <string name="text_course_name">Course Name：</string>
+    <string name="text_course_class">Class：</string>
+    <string name="text_course_time">Time：</string>
+    <string name="text_course_remark">Remark：</string>
+
+    <string name="text_start_listen">Start Listen</string>
+    <string name="hint_listen">Input a listen number</string>
+    <string name="text_listening">Listening the number %1$s</string>
+
+    <string name="e_zone_type">Type</string>
+    <string name="e_zone_type_circle">Circle</string>
+    <string name="e_zone_type_polygon">Polygon</string>
+    <string name="text_area_raduis_star">500m</string>
+    <string name="text_area_raduis_end">1000m</string>
+    <string name="tips_input_interval">Please Input the interval that form 10s to 1800s</string>
+    <string name="tips_validated_interval">Please Input validated time interval!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+    <string name="title_home">goFirst</string>
+    <string name="title_dashboard">goSecond</string>
+    <string name="title_notifications">待定</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_scrolling">动态部署模拟</string>
+    <string name="update_step">
+        "请根据工程根目录下的Tpatch.txt执行动态部署的过程"
+
+
+    </string>
+    <string name="awo_step">
+
+        "请根据下面步骤执行单模块替换（用于开发测试）.\n\n"
+
+        "1、设备上安装基线版本\n"
+        "看到这个界面表示你的设备上已经安装成功demo，成功的开始！\n\n"
+
+        "2、修改你的代码或者资源\n"
+        "可以通过明显样式的修改或者打log来标识你的修改是否成功，manifest不能修改，新增Component的机制我们后续会尽快支持\n\n"
+
+        "3、执行awo构建\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are \n\n"
+
+        "4、将patch产物push倒你的设备上\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z \n\n"
+
+        "5、点击红色按钮执行动态部署\n"
+
+        "也可以尝试PC上执行adb shell am broadcast sdfsdfsdf -e pkg com.taobao.demo"
+
+
+    </string>
+
+    <string name="remote_bundle_step">
+
+        "请根据下面步骤执行: \n\n"
+
+        "1、添加远程bundle的依赖， 如 `bundleCompile project(':remotebundle')` ， 参考 app/build.gradle  \n\n"
+
+        "2、声明远程bundle列表， \n atlas { tBuildConfig { outOfApkBundles = ['remotebundle'] }  \n\n"
+
+        "3、构建完整包  assembleDebug \n"
+
+           apk 路径：app/build/outputs/apk/ \n"
+           远程bundle 路径：app/build/outputs/remote-bundles-debug \n\n"
+
+        "4、将远程sopush倒你的设备上\n"
+
+            "可以尝试PC上执行adb push app/build/outputs/remote-bundles-debug/libcom_taobao_remotebunle.so /sdcard/Android/data/com.taobao.demo/cache/libcom_taobao_remotebunle.so \n\n"
+
+        "5、点击下方按钮，加载远程bundle \n"
+
+    </string>
+
+
+    <string name="title_activity_update">UpdateActivity</string>
+</resources>

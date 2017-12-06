@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingRightPercent="4%w"
+        app:layout_paddingLeftPercent="4%w"
+        app:layout_paddingBottomPercent="3%w"
+        >
+
+        <TextView
+            android:id="@+id/id_tvSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="16sp"
+            app:layout_marginTopPercent="3%w"/>
+
+        <TextView
+            android:id="@+id/id_tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:textColor="@color/black2"
+            android:textSize="14sp"
+            app:layout_marginTopPercent="3%w"/>
+
+        <TextView
+            android:id="@+id/id_tvClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvSubject"
+            app:layout_marginTopPercent="1%w"
+            android:text=""
+            android:textColor="@color/black2"
+            android:textSize="14sp" />
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

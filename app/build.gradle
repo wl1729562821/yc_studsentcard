@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.jakewharton.butterknife'
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "cc.manbu.schoolinfocommunication"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 30
+        versionName "2.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            // 设置支持的 SO 库构架，一般而言，取你所有的库支持的构架的`交集`。
+            abiFilters 'armeabi'// 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+    /*signingConfigs {
+        release {
+            storeFile file("../keystore/test.keystore")
+            storePassword "test123456"
+            keyAlias "test"
+            keyPassword "test123456"
+        }
+    }*/
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            //signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+apply plugin: 'replugin-host-gradle'
+repluginHostConfig {
+    /**
+     * 是否使用 AppCompat 库
+     * 不需要个性化配置时，无需添加
+     */
+    useAppCompat = true
+    // 设置为“不需要常驻进程”
+    persistentEnable = false
+}
+
+apply plugin: 'com.bugtags.library.plugin'
+bugtags {
+    //自动上传符号表功能配置，如果需要根据 build varint 配置，请参考帮助中心->符号表->Android 符号表->配置自动上传符号表
+    appKey "6b85c89096795d7e2293c4fbc814917e"  //这里是你的 appKey
+    appSecret "2d468a6f303c96539d4cd38d182a21f3"    //这里是你的 appSecret，管理员在设置页可以查看
+    mappingUploadEnabled true
+
+    //网络跟踪功能配置(企业版)
+    trackingNetworkEnabled false
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.bugtags.library:bugtags-lib:latest.integration'
+    compile 'com.qihoo360.replugin:replugin-host-lib:2.2.1'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.jaeger.statusbarutil:library:1.4.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'org.xutils:xutils:3.3.40'
+    compile 'com.github.siyamed:android-shape-imageview:0.9.3@aar'
+    compile 'com.code-troopers.betterpickers:library:3.1.0'
+    compile 'com.github.zcweng:switch-button:0.0.3@aar'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    //时间选择器
+    compile 'com.jzxiang.pickerview:TimePickerDialog:1.0.1'
+    //高德地图
+    compile 'com.amap.api:location:latest.integration'
+    compile 'com.amap.api:search:latest.integration'
+    compile 'com.amap.api:3dmap:latest.integration'
+    compile files('libs/org.apache.http.legacy.jar')
+    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'pub.devrel:easypermissions:1.0.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+}
+

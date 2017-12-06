@@ -1,0 +1,66 @@
+<cn.yc.base.view.custom.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cc.manbu.schoolinfocommunication.fragments.ContactsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@color/home_bg_color">
+
+        <cn.yc.base.view.custom.percent.PercentRelativeLayout
+            app:layout_widthPercent="88%w"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ed_bg1"
+            app:layout_marginTopPercent="5.5%w"
+            app:layout_marginBottomPercent="5.5%w"
+            >
+
+            <ImageView
+                app:layout_heightPercent="4%w"
+                app:layout_widthPercent="4%w"
+                android:layout_centerVertical="true"
+                app:layout_marginLeftPercent="4%w"
+                android:src="@drawable/search"
+                android:id="@+id/contacts_search"/>
+            <ImageView
+                app:layout_heightPercent="5%w"
+                app:layout_widthPercent="5%w"
+                android:layout_centerVertical="true"
+                app:layout_marginRightPercent="5%w"
+                android:src="@drawable/clear"
+                android:id="@+id/contacts_clear"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/id_edSearch"
+                app:layout_marginLeftPercent="4%w"
+                app:layout_marginRightPercent="10%w"
+                app:layout_heightPercent="12.5%w"
+                android:layout_toRightOf="@+id/contacts_search"
+                android:background="@android:color/transparent"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:hint="手机号"
+                android:singleLine="true"
+                android:textColor="@color/black2"/>
+
+        </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+        <ListView
+            android:id="@+id/contacts_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+</cn.yc.base.view.custom.percent.PercentFrameLayout>

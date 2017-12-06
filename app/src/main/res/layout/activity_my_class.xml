@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nav_bg"
+    tools:context="cc.manbu.schoolinfocommunication.MyClassActivity">
+    <include
+        android:id="@+id/id_head"
+        layout="@layout/layout_head"/>
+    <cc.manbu.schoolinfocommunication.view.customer.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <View
+                android:id="@+id/id_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/login_bar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/tv_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/monday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tuesday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wednesday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thursday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/friday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/staturday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sunday"
+                    android:textColor="@color/login_bar"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/login_bar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/tv_lesson0"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson8"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+                <TextView
+                    android:id="@+id/tv_lesson9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="3"
+                    android:gravity="center"
+                    android:lines="3"
+                    android:textColor="@color/login_bar"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/login_bar" />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/login_bar" />
+            <LinearLayout
+                android:id="@+id/linearLayout_syllabus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+        </LinearLayout>
+        </LinearLayout>
+    </cc.manbu.schoolinfocommunication.view.customer.ReboundScrollView>
+</LinearLayout>

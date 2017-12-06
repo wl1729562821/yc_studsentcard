@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/white_12_bg">
+
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingLeftPercent="3.5%w"
+        app:layout_paddingRightPercent="3.5%w">
+
+        <TextView
+            android:id="@+id/id_tvCourseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_course_name"
+            android:textColor="@color/black"
+            app:layout_marginTopPercent="6%w"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_tvCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvCourseName"
+            android:layout_toRightOf="@+id/id_tvCourseName"
+            android:text=""
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_tvCourseClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvCourse"
+            app:layout_marginTopPercent="6%w"
+            android:text="@string/text_course_class"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_tvClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvCourseClass"
+            android:layout_toEndOf="@+id/id_tvCourseClass"
+            android:layout_toRightOf="@+id/id_tvCourseClass"
+            android:text=""
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_tvCourseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvClass"
+            app:layout_marginTopPercent="6%w"
+            android:text="@string/text_course_time"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvCourseTime"
+            android:layout_toEndOf="@+id/id_tvCourseTime"
+            android:layout_toRightOf="@+id/id_tvCourseTime"
+            android:text=""
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_tvCourseRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvTime"
+            app:layout_marginTopPercent="6%w"
+            android:text="@string/text_course_remark"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_tvRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_tvCourseRemark"
+            android:layout_toEndOf="@+id/id_tvCourseRemark"
+            android:layout_toRightOf="@+id/id_tvCourseRemark"
+            android:textColor="@color/login_bar"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:gravity="right"
+            android:layout_below="@id/id_tvRemark"
+            android:text="@string/text_ok"
+            android:id="@+id/id_ok"
+            app:layout_marginTopPercent="6%w"
+            android:layout_alignParentRight="true"
+            app:layout_paddingBottomPercent="6%w"
+            />
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

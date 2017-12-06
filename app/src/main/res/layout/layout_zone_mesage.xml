@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/background"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/id_tvZoneTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:text="@string/text_e_zone"/>
+
+        <EditText
+            android:id="@+id/id_edZoneName"
+            android:layout_below="@id/id_tvZoneTitle"
+            android:layout_width="fill_parent"
+            android:padding="10dp"
+            android:maxLines="2"
+            android:textSize="14sp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/text_e_zone_name"
+            android:background="@drawable/white_bg"/>
+
+        <RadioGroup
+            android:id="@+id/id_rgAlert"
+            android:layout_below="@+id/id_edZoneName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/id_llBottom"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/id_rbEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_warn"/>
+
+            <RadioButton
+                android:id="@+id/id_rbOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leave_warn"/>
+
+            <RadioButton
+                android:id="@+id/id_rbBoth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/enter_leave_warn"/>
+
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/id_llBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/id_buttonCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_cancel_selector"
+                android:text="@string/cancel"/>
+            <Button
+                android:id="@+id/id_buttonSend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_submit_selector"
+                android:text="@string/text_ok"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

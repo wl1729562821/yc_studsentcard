@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        app:layout_heightPercent="14%w">
+
+        <TextView
+            android:id="@+id/id_tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_marginLeftPercent="3.5%w" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginRightPercent="3.5%w">
+
+            <ImageView
+                android:id="@+id/id_ivArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:src="@drawable/arrow_right" />
+
+            <com.suke.widget.SwitchButton
+                android:id="@+id/id_switchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:sb_show_indicator="false" />
+        </FrameLayout>
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black3" />
+
+    <TextView
+        android:id="@+id/id_tvLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/home_bg_color"
+        android:visibility="gone" />
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

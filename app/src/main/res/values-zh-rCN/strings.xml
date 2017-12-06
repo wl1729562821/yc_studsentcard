@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">校园守护星</string>
+    <string name="text_main_tab1">首页</string>
+    <string name="text_main_tab2">定位</string>
+    <string name="text_main_tab3">微聊</string>
+    <string name="text_main_tab4">我的</string>
+    <string name="loading">请稍候&#8230;</string>
+    <string name="text_tips">温馨提示</string>
+    <string name="text_ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+    <string name="text_login_failed">登录失败！请检查你的密码或用户名是否正确！</string>
+    <string name="text_data_failed">某些重要数据提交失败，请重新登录！</string>
+    <string name="text_access_device_failed">没有获取到设备，请重试！</string>
+    <string name="text_input_loginname">请输入登录名！</string>
+    <string name="text_input_pwd">请输入登录密码！</string>
+    <string name="tips_no_data">没有数据</string>
+    <string name="nearby">附近</string>
+    <string name="text_unkonw_err">未知错误，请重试！</string>
+    <string name="text_login">登录</string>
+    <string name="text_no_login_history">没有你登录的历史数据！</string>
+    <string name="text_add">添加</string>
+
+    <string name="about_copy_right">城市漫步版权所有</string>
+    <string name="about_copy_right_time">Copyright@2013 城市漫步.</string>
+    <string name="current_version">当前版本:</string>
+
+    <string name="text_account">账号</string>
+    <string name="text_password">密码</string>
+
+    <string name="text_e_zone">电子禁区</string>
+    <string name="text_phone_books">通讯录</string>
+    <string name="text_check_class">考勤记录</string>
+    <string name="text_alerts">我的闹钟</string>
+    <string name="text_my_school">我的校园</string>
+    <string name="text_children">儿童卫士</string>
+    <string name="text_home_work_notice">作业通知</string>
+    <string name="text_home_work_score">考试成绩</string>
+    <string name="text_steps">计步</string>
+    <string name="text_vacations">我要请假</string>
+    <string name="text_my_class">我的课程</string>
+
+    <string name="network_error1">删除失败,请稍后再试</string>
+    <string name="ago_sec">秒前</string>
+    <string name="ago_min">分钟前</string>
+    <string name="ago_hour">小时前</string>
+    <string name="ago_day">天前</string>
+    <string name="ago_mouth">月前</string>
+    <string name="ago_year">年前</string>
+
+    <string name="text_locate_type">%1$s定位类型:%2$s&#160;%3$s</string>
+    <string name="text_battery">%1$s电量:%2$s&#160;%3$s</string>
+    <string name="text_loc_time">%1$s最后定位时间:%2$s&#160;%3$s</string>
+    <string name="text_loc_address">地址:&#160;</string>
+    <string name="text_dev_status">%1$s在线状态:%2$s&#160;%3$s%4$s%5$s</string>
+    <string name="text_off_line">离线</string>
+    <string name="text_on_line">在线</string>
+
+    <string name="text_track">轨迹回放</string>
+    <string name="text_follow">在线跟踪</string>
+
+    <string name="text_e_zone_name">电子禁区名称</string>
+    <string name="text_area_edit">[点击编辑]</string>
+    <string name="text_area_sure">设为安全区域</string>
+    <string name="clear">清除</string>
+    <string name="enter_warn">进电子围栏报警</string>
+    <string name="leave_warn">出电子围栏报警</string>
+    <string name="enter_leave_warn">进出电子围栏报警</string>
+    <string name="text_tips_input_zone_name">请先输入电子禁区名称！</string>
+    <string name="text_tips_zone_name_exits">该电子禁区名称已经存在了!</string>
+    <string name="fens_info">电子围栏</string>
+    <string name="text_points_too_less">请至少选择三个点以组成电子禁区！</string>
+    <string name="text_no_user_msg">无法获取到当前的用户信息！</string>
+    <string name="draw_electronicfence">请在地图上画出电子禁区！</string>
+    <string name="text_zone_add_success">电子禁区添加成功了！</string>
+    <string name="text_delete_zone">您确定要删除该电子禁区吗？</string>
+
+    <string name="name">名称</string>
+    <string name="phone_num">手机号码</string>
+    <string name="text_added">已添加</string>
+    <string name="text_head">头像</string>
+    <string name="hint_please_input">请输入&#8230;</string>
+    <string name="text_carmera">相机</string>
+    <string name="text_photo">相册</string>
+
+    <string name="text_not_null_phone">电话号码不能为空</string>
+    <string name="hint_contact_exits">该联系人已经存在</string>
+    <string name="tips_name_not_be_null">名称不能为空!</string>
+
+    <string name="text_leave">离开学校</string>
+    <string name="text_enter">进入学校</string>
+    <string name="text_up_car">上校车</string>
+    <string name="text_down_car">下校车</string>
+
+    <string name="text_no_colck">还没有设置闹钟提醒</string>
+    <string name="text_save">保存</string>
+    <string name="text_save_success">闹钟设置保存成功！</string>
+
+    <string name="text_kinship">亲情号码</string>
+    <string name="text_listener">监听号码</string>
+    <string name="text_sleep_on_time">定时休眠</string>
+    <string name="text_fair_wall">防火墙</string>
+    <string name="text_upload_time">上传间隔</string>
+    <string name="text_voice_cmd">语音指令</string>
+    <string name="text_scence_mode">情景模式</string>
+    <string name="text_class_time">上课时间</string>
+    <string name="text_gps">GPS开关</string>
+    <string name="text_bluteeth">蓝牙防丢</string>
+    <string name="text_text_msg">文本发送</string>
+    <string name="text_lock">按键锁</string>
+
+    <string name="text_search_dev">查找设备</string>
+    <string name="text_loacte_fast">快速定位</string>
+    <string name="text_loacte_mode">定位模式</string>
+    <string name="text_remote">远程开关机</string>
+    <string name="text_reset">恢复出厂设置</string>
+
+    <string name="text_cell_number">电话号码:&#160;&#160;&#160;&#160;%1$s</string>
+    <string name="setting_number">设置号码</string>
+    <string name="dad">爸爸</string>
+    <string name="mom">妈妈</string>
+    <string name="sibling">兄弟姐妹</string>
+    <string name="listen">监听</string>
+    <string name="text_input_phone_number">请输入号码</string>
+
+    <string name="text_device_on">开机时间</string>
+    <string name="text_device_off">关机时间</string>
+    <string name="text_set_new_time">设置新时间</string>
+    <string name="text_justy_time">请确保开机时间要小于关机的时间！</string>
+    <string name="text_sleep_time_success">定时休眠设置成功了！</string>
+
+    <string name="text_fairwall">防火墙设置成功！</string>
+    <string name="text_fairwall_failed">防火墙设置失败！</string>
+
+    <string name="text_find_device">查找设备指令已发出！</string>
+    <string name="text_find_locate">已发出定位指令！</string>
+    <string name="text_mode_set">模式设置</string>
+    <string name="text_mode_1">省电模式</string>
+    <string name="text_mode_2">轨迹模式</string>
+    <string name="text_set_mode_success">工作模式修改为%1$s</string>
+
+    <string name="text_mode_power_off">远程关机</string>
+    <string name="text_mode_power_boot">远程重启</string>
+    <string name="text_remote_set">远程设置</string>
+
+    <string name="text_off_success">远程关机执行成功</string>
+    <string name="text_reboot_success">远程重启执行成功</string>
+    <string name="text_send_reset">已发出恢复出厂设置指令！</string>
+    <string name="tips_device_no_online">设备不在线!</string>
+
+    <!-- 亲子互动 -->
+    <string name="parent_child">计步器</string>
+    <string name="issue_task">发布任务</string>
+    <string name="step">步</string>
+    <string name="task_reward">任务奖励</string>
+    <string name="task_complete">任务完成</string>
+    <string name="simple_task">简单任务</string>
+    <string name="medium_task">中等任务</string>
+    <string name="hard_task">困难任务</string>
+    <string name="target_task">目标任务:</string>
+    <string name="task_progress">任务进度</string>
+    <string name="cash_rewards">获取奖励</string>
+    <string name="cancel_rewards">取消奖励</string>
+    <string name="tips_task_no_completed">当前还有未完成的任务正在进行!</string>
+    <string name="tips_into_current_task">进入当前任务</string>
+    <string name="tips_into_start_new_task">开启新任务</string>
+    <string name="tips_task_reward">您给孩子的任务完成奖励是:</string>
+    <string name="tips_task_changed">当前任务已经改变了!</string>
+    <string name="task">任务</string>
+
+    <string name="text_off_title">标题：</string>
+    <string name="text_off_reson">原因：</string>
+    <string name="text_off_date">日期：</string>
+    <string name="text_pass">未通过</string>
+    <string name="text_reading">未审核</string>
+    <string name="text_passed">已通过</string>
+    <string name="text_off_date1">请假日期</string>
+    <string name="text_off_reson1">请假原因</string>
+    <string name="text_teacher_remark">老师备注</string>
+
+    <string name="text_sleave_title">请假标题</string>
+    <string name="hint_sleave_title">请输入标题</string>
+    <string name="text_sleave_reason">请假原因</string>
+    <string name="hint_sleave_reason">请输入请假原因</string>
+    <string name="text_sleave_start_time">请假开始时间</string>
+    <string name="text_sleave_end_time">请假结束时间</string>
+    <string name="text_confrim_apply">立即申请</string>
+    <string name="text_not_early_than_today">对不起，时间无法倒流，请选择正确的请假时间！</string>
+    <string name="text_start_early_than_end">请确定开始时间比结束时间小！</string>
+    <string name="text_chose_time">请选择请假时间在提交！</string>
+    <string name="text_commited">你的申请已经提交了！</string>
+
+    <string name="none_course">无课程</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="staturday">周六</string>
+    <string name="sunday">周日</string>
+
+    <string name="text_set">设置</string>
+    <string name="text_msg">消息中心</string>
+    <string name="text_info">个人中心</string>
+
+    <string name="text_notice">发布通知</string>
+    <string name="text_holoday">请假审批</string>
+    <string name="text_subject">授课科目</string>
+    <string name="text_myclass">我的班级</string>
+    <string name="text_myschedule">我的课表</string>
+    <string name="text_homework">布置作业</string>
+
+    <string name="text_change_pwd">修改密码</string>
+    <string name="text_push">推送消息</string>
+    <string name="text_feedback">意见反馈</string>
+    <string name="text_about">关于</string>
+    <string name="text_exit">退出登录</string>
+
+    <string name="text_realse_homework">发布</string>
+    <string name="text_realse_homework_content">发布的作业内容</string>
+    <string name="hint_home_work">请输入作业内容</string>
+    <string name="text_chose_class">选择班级</string>
+    <string name="text_chose_class_first">请先选择班级！</string>
+    <string name="text_chose_subjects">选择科目</string>
+    <string name="text_chose_subject_first">请先选择科目！</string>
+    <string name="text_home_work_relase_success">作业发布成功了！</string>
+
+    <string name="text_not_handle_leave">未处理假条</string>
+    <string name="text_handled_leave">已处理假条</string>
+
+    <string name="text_leave_person">请假人：</string>
+    <string name="text_agreed_leave">同意请假</string>
+    <string name="text_unagreed_leave">拒绝请假</string>
+    <string name="hint_reason">请输入同意或拒绝的原因</string>
+    <string name="text_handle_msg_success">已成功处理了这条信息！</string>
+    <string name="text_handle_msg_fail">信息处理失败了，请稍后重试！</string>
+
+    <string name="text_new_pwd">新密码</string>
+    <string name="text_old_pwd">旧密码</string>
+    <string name="text_new_pwd2">再次输入新密码</string>
+    <string name="text_new_pwd_not_null">新密码不能为空！</string>
+    <string name="text_old_pwd_not_null">旧密碼不能为空！</string>
+    <string name="text_new_not_match">新密碼輸入不一致！</string>
+
+    <string name="feedback_content_hint">请输入您的反馈意见</string>
+    <string name="feedback_commite">反馈意见提交成功！</string>
+
+    <string name="text_no_msg">还没有消息哦</string>
+    <string name="title_sure_to_delete">确定要删除吗?</string>
+    <string name="clean_up">清空</string>
+    <string name="text_logout">您确定要退出登录吗？</string>
+    <string name="text_cur_address">当前地址：%1$s</string>
+
+    <string name="hint_space_time">请输入一个时长</string>
+
+    <string name="text_normal">一般模式</string>
+    <string name="text_silence">静音模式</string>
+    <string name="text_in_school">校内模式</string>
+    <string name="text_ou_school">校外模式</string>
+
+    <string name="text_phone">来电声音级别</string>
+    <string name="text_messages">短信声音级别</string>
+    <string name="text_voice">语音播报声音级别</string>
+
+    <string name="play_finish">播放完成</string>
+    <string name="has_completed">已完成:</string>
+    <string name="finish">完成</string>
+    <string name="tips_play_origin_trace">播放原始轨迹数据</string>
+    <string name="tips_play_rectified_trace">播放纠偏后的轨迹数据</string>
+    <string name="tips_auto_zoom_map_mode">播放轨迹时不支持手动缩放地图</string>
+    <string name="tips_manual_zoom_map_mode">播放轨迹时支持手动缩放地图</string>
+    <string name="text_chose_time_space">请选择轨迹回放时间段</string>
+    <string name="text_start_time">开始时间：</string>
+    <string name="text_end_time">结束时间：</string>
+    <string name="text_play">开始回放</string>
+    <string name="tips_no_device">没有加载到设备!</string>
+    <string name="no_data_current_time">当前时间内无轨迹数据.</string>
+
+    <string name="text_nothing">空空如也 什么都没有哦</string>
+    <string name="text_del_phone">确定要删除掉%1$s的号码吗？</string>
+
+    <string name="text_states">状态: %1$s</string>
+    <string name="text_time">时间: %1$s</string>
+    <string name="text_alert_type">报警方式: %1$s</string>
+    <string name="text_alert_in">进禁区报警</string>
+    <string name="text_alert_out">出禁区报警</string>
+    <string name="text_alert_all">进出禁区报警</string>
+    <string name="a">儿童早教</string>
+    <string name="a1">作业通知</string>
+    <string name="text_exit_app">再按一次退出程序!</string>
+    <string name="text_course_name">课程名称：</string>
+    <string name="text_course_class">上课班级：</string>
+    <string name="text_course_time">上课时间：</string>
+    <string name="text_course_remark">备注：</string>
+
+    <string name="text_start_listen">开始监听</string>
+    <string name="hint_listen">请输入一个监听号码</string>
+    <string name="text_listening">正在监听%1$s这个号码!</string>
+
+    <string name="e_zone_type">类型</string>
+    <string name="e_zone_type_circle">圆形</string>
+    <string name="e_zone_type_polygon">多边形</string>
+    <string name="text_area_raduis_star">500米</string>
+    <string name="text_area_raduis_end">1000米</string>
+    <string name="tips_input_interval">请输入上传时间间隔(10秒到1800秒)</string>
+    <string name="tips_validated_interval">请输入合法的时间间隔!</string>
+</resources>

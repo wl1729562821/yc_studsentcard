@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            app:layout_widthPercent="13.5%w"
+            app:layout_heightPercent="13.5%w"
+            app:layout_marginLeftPercent="5%w"
+            app:layout_marginTopPercent="5%w"
+            app:layout_marginBottomPercent="5%w"
+            android:src="@drawable/fence" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginRightPercent="4%w">
+
+            <TextView
+                android:id="@+id/id_tvEZoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/id_tvAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/toolbar_text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

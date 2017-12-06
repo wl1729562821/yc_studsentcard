@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nav_bg"
+    android:orientation="vertical">
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="10.5%h"
+        android:id="@+id/base_toolbar">
+
+        <cn.yc.base.view.custom.percent.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            app:layout_marginLeftPercent="4%w"
+            android:id="@+id/toolbar_back">
+
+            <ImageView
+                app:layout_widthPercent="19%h"
+                app:layout_heightPercent="35%h"
+                android:background="@drawable/toolbar_back"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/toolbar_text_color"
+                android:text="@string/back"
+                android:layout_gravity="center"
+                app:layout_marginLeftPercent="10%h"
+                />
+
+        </cn.yc.base.view.custom.percent.PercentLinearLayout>
+
+        <TextView
+            android:id="@+id/id_tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/toolbar_text_color"
+            android:textSize="19sp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/toolbar_text_color"
+            android:text=""
+            android:textSize="16sp"
+            app:layout_paddingRightPercent="4%w"
+            app:layout_paddingLeftPercent="4%w"
+            android:id="@+id/toolbar_title_right"
+            android:gravity="center"
+            />
+
+        <FrameLayout
+            android:id="@+id/id_rlRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_tvRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/id_ivRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <com.suke.widget.SwitchButton
+                android:id="@+id/id_rightSwitchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                app:sb_show_indicator="false" />
+        </FrameLayout>
+
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_head"
+        android:background="@color/black3">
+        <EditText
+            android:id="@+id/id_edUploadSpace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_bg"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:maxLength="4"
+            android:hint="@string/hint_space_time"/>
+        <TextView
+            android:id="@+id/id_tvStartListen"
+            android:layout_below="@+id/id_edUploadSpace"
+            android:layout_width="match_parent"
+            android:background="@drawable/yellow_3_bg"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/text_start_listen"
+            app:layout_heightPercent="12%w"
+            android:textColor="@color/toolbar_text_color"/>
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

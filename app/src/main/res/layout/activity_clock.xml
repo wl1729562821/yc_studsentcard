@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_daily_reminders"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nav_bg">
+
+    <include
+        android:id="@+id/id_head"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_head"
+        android:layout_width="match_parent"/>
+
+    <FrameLayout
+        android:layout_below="@+id/id_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black3">
+        <LinearLayout
+            android:id="@+id/id_llEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tips"/>
+            <TextView android:id="@+id/tv_tips"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/home_text_color"
+                      android:text="@string/text_no_colck"
+                      android:textSize="18sp"/>
+        </LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/id_refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black3">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="@color/transparent"
+                android:background="@color/black3"
+                android:animationCache="false"
+                android:fadingEdge="none"
+                android:scrollbars="none"
+                android:scrollingCache="false"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </FrameLayout>
+</RelativeLayout>

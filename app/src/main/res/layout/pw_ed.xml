@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/white_6_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:text="亲情号码"
+        android:gravity="center"
+        app:layout_marginTopPercent="6%w"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black1"
+        android:textSize="13sp"
+        android:text=""
+        android:id="@+id/pw_ed_name"
+        android:gravity="center"
+        app:layout_marginTopPercent="1%w"/>
+
+    <EditText
+        app:layout_widthPercent="88%w"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_marginTopPercent="6%w"
+        app:layout_marginBottomPercent="6%w"
+        app:layout_paddingTopPercent="2.5%w"
+        app:layout_paddingBottomPercent="2.5%w"
+        app:layout_paddingLeftPercent="3%w"
+        app:layout_paddingRightPercent="3%w"
+        android:inputType="phone"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:id="@+id/pw_ed_ed"
+        android:background="@drawable/ed_ed_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black3"/>
+    <cn.yc.base.view.custom.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%w">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black3"
+            android:layout_centerInParent="true"
+            android:id="@+id/view"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pw_ed_cancel"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:textColor="#00A8FF"
+            android:layout_toLeftOf="@+id/view"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pw_ed_ok"
+            android:text="@string/text_ok"
+            android:textSize="16sp"
+            android:textColor="#00A8FF"
+            android:layout_toRightOf="@+id/view"
+            android:gravity="center"/>
+
+    </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+</cn.yc.base.view.custom.percent.PercentLinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="92"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_topLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/transparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/view_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/baby_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_showLine"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <Button
+                android:id="@+id/btn_manual_zoom_map"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btn_rectify_track"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pop_play_finished"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="-40dp"
+            android:background="#FF00F0FF"
+            android:gravity="center"
+            android:text="@string/play_finish"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_progress_container"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <include
+                layout="@layout/layout_progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <cn.yc.student.view.customer.ProgressTextView
+            android:id="@+id/mSnackBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:padding="8dp"
+            android:textColor="#ffffffff"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/view_Bootom_Tool"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Btn_Play"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:background="@drawable/start_search" />
+
+        <Button
+            android:id="@+id/btn_revPlay"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:background="@drawable/restar" />
+
+        <SeekBar
+            android:id="@+id/SeekBat_PlaySpeed"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:progress="50" />
+
+        <Button
+            android:id="@+id/btn_Fin"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:background="@color/transparent"
+            android:text="@string/finish"
+            android:textColor="@color/mediumblue" />
+    </LinearLayout>
+
+</LinearLayout>

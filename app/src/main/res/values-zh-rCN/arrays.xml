@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="items_me_view">
+        <item>昵称</item>
+        <item>出生日期</item>
+        <item>移动电话</item>
+        <item>户籍地址</item>
+        <item>民族</item>
+        <item>身份证号</item>
+        <item>政治面貌</item>
+        <item>入校时间</item>
+    </array>
+    <array name="items_shool_view">
+        <item>学校介绍</item>
+        <item>最新公告</item>
+        <item>校內新闻</item>
+        <item>精彩活动</item>
+    </array>
+</resources>

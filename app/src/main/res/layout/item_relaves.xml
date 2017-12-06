@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.yc.base.view.custom.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <cn.yc.base.view.custom.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/id_ivHead"
+            app:layout_widthPercent="22%w"
+            app:layout_heightPercent="22%w"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kicon"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginTopPercent="3%w"
+            app:layout_marginBottomPercent="3%w"/>
+
+        <cn.yc.base.view.custom.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            app:layout_heightPercent="22%w"
+            app:layout_marginLeftPercent="4%w"
+            app:layout_marginRightPercent="3.5%w"
+            app:layout_marginTopPercent="3%w"
+            app:layout_marginBottomPercent="3%w">
+
+            <TextView
+                android:id="@+id/id_tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_add"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_marginTopPercent="2%w"/>
+
+            <TextView
+                android:id="@+id/id_tvSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_3_bg"
+                android:gravity="center"
+                app:layout_paddingLeftPercent="3.5%w"
+                app:layout_paddingRightPercent="3.5%w"
+                app:layout_paddingTopPercent="2%w"
+                app:layout_paddingBottomPercent="2%w"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="14sp"
+                android:textColor="#00A8FF"
+                android:text="@string/setting_number" />
+
+            <TextView
+                android:id="@+id/id_tvNum"
+                android:layout_width="match_parent"
+                android:layout_toLeftOf="@+id/id_tvSubmit"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:layout_alignParentBottom="true"
+                app:layout_marginBottomPercent="2%w"
+                android:text="@string/text_cell_number" />
+
+        </cn.yc.base.view.custom.percent.PercentRelativeLayout>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+
+    </cn.yc.base.view.custom.percent.PercentLinearLayout>
+</cn.yc.base.view.custom.percent.PercentLinearLayout>
